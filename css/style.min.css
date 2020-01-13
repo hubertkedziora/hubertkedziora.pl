@@ -1,0 +1,26 @@
+html{background:url(/pic/photo-1479669732031-affb2ce2d265.jpeg) no-repeat center center fixed;background-size:cover}
+html body{margin:0;background-color:rgba(0,0,0,0)}
+html body .emptyContainer{width:700px;font-size:20px;text-align:justify;margin-right:60px;margin-left:30px}
+html body .emptyContainer .description,html body .emptyContainer .description2,html body .emptyContainer .description3{display:none}
+html body .emptyContainer .description3{font-size:27px;text-align:start}
+html body .emptyContainer .description3 .icons{padding-bottom:40px}
+html body .emptyContainer .description3 .credits{font-size:15px}
+html body .container{display:flex;justify-content:space-around;align-items:center;color:#fff;font-family:Nunito,sans-serif;width:100%;height:100vh}
+html body .container .main_text{text-align:left;font-size:50px;margin-left:100px;padding-top:4%;height:500px}
+html body .container .main_text .name{margin-top:15px}
+html body .container .main_text .name,html body .container .main_text .name2,html body .container .main_text .name3{font-size:27px;cursor:pointer;width:150px;padding:5px}
+html body .container .main_text .name3{width:300px;margin-bottom:5px}
+html body .container .main_text .function{font-size:50px;padding-bottom:4%}
+html body .container .main_text .function .dot{color:#daa520}
+html body .container a{color:#fff;font-size:27px;text-decoration:none}
+@media (max-width:575.98px){
+html body body{display:block;background-color:rgba(0,0,0,0);height:100vh}
+html body body .header{margin:0;padding-bottom:10px}
+html body .container{width:100%;display:block;height:100vh}
+html body .container .main_text{text-align:center;font-size:50px;margin-left:3%;margin-right:3%;height:460px;padding-top:70px}
+html body .container .main_text .function{font-size:27px;padding-bottom:4%;padding-top:4%}
+html body .container .emptyContainer{width:90%;display:block;font-size:15px;text-align:justify;margin-right:3%;margin-left:3%}
+html body .container .emptyContainer .descriptionTitle,html body .container .emptyContainer .description_function{text-align:center}
+html body .container .emptyContainer .description,html body .container .emptyContainer .description2,html body .container .emptyContainer .description3{padding-top:50px}
+html body .container .emptyContainer .credits{display:none}
+}

@@ -1,0 +1,156 @@
+$fontSmall2: 15px;
+$fontSmall: 20px;
+$fontNormal: 27px;
+$fontBig: 50px;
+
+html {
+  background: url(/pic/photo-1479669732031-affb2ce2d265.jpeg) no-repeat center
+    center fixed;
+  background-size: cover;
+
+  body {
+    margin: 0;
+    background-color: rgba(black, 0);
+
+    // .header {
+    //   margin-top: 45px;
+    // }
+
+    .emptyContainer {
+      width: 700px;
+      font-size: $fontSmall;
+      text-align: justify;
+      margin-right: 60px;
+      margin-left: 30px;
+
+      .description,
+      .description2,
+      .description3 {
+        display: none;
+      }
+
+      .description3 {
+        font-size: $fontNormal;
+        text-align: start;
+
+        .icons {
+          padding-bottom: 40px;
+        }
+
+        .credits {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      font-family: "Nunito", sans-serif;
+      width: 100%;
+      height: 100vh;
+
+      .main_text {
+        text-align: left;
+        font-size: $fontBig;
+        margin-left: 100px;
+        padding-top: 4%;
+        height: 500px;
+
+        .name {
+          margin-top: 15px;
+        }
+
+        .name,
+        .name2,
+        .name3 {
+          font-size: $fontNormal;
+          cursor: pointer;
+          width: 150px;
+          padding: 5px;
+        }
+
+        .name3 {
+          width: 300px;
+          margin-bottom: 5px;
+        }
+
+        .function {
+          font-size: $fontBig;
+          padding-bottom: 4%;
+
+          .dot {
+            color: goldenrod;
+          }
+        }
+      }
+
+      a {
+        color: white;
+        font-size: $fontNormal;
+        text-decoration: none;
+      }
+    }
+
+    //Media Queries Breakpoint For Responsive Design
+
+    @media (max-width: 575.98px) {
+      body {
+        display: block;
+        background-color: rgba(black, 0);
+        height: 100vh;
+
+        .header {
+          margin: 0px;
+          padding-bottom: 10px;
+        }
+      }
+
+      .container {
+        width: 100%;
+        display: block;
+        height: 100vh;
+
+        .main_text {
+          text-align: center;
+          font-size: $fontBig;
+          margin-left: 3%;
+          margin-right: 3%;
+          height: 460px;
+          padding-top: 70px;
+
+          .function {
+            font-size: $fontNormal;
+            padding-bottom: 4%;
+            padding-top: 4%;
+          }
+        }
+        .emptyContainer {
+          width: 90%;
+          display: block;
+          font-size: $fontSmall2;
+          text-align: justify;
+          margin-right: 3%;
+          margin-left: 3%;
+
+          .descriptionTitle,
+          .description_function {
+            text-align: center;
+          }
+
+          .description,
+          .description2,
+          .description3 {
+            padding-top: 50px;
+          }
+
+          .credits {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

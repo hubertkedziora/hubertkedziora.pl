@@ -1,0 +1,10 @@
+1. webpack: skonfigurowany webpack, pliki app.js => out.js, 
+2. jQuery: eventy mouseenter, mouseleave, fadeIn, fadeOut;
+3. google fonts: implementacja wybranego fontu
+4. rwd: breakpoint poniżej 575.98px; zcentralizowany widok, scrolling, zmana wyglądu strony
+5. ESMA6: funkcje strzałkowe
+6. domena: umieszczenie plików z kodem na serwerze
+7. Sass: zmienne, zagnieżdżanie instrukcji, kompiler Koala, scss=>min.css
+8. implementacja ikon http, ikona na pasku http
+9. jquery mobile API
+
